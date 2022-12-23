@@ -19,4 +19,11 @@ def fib(n: int) -> list:
         c = a + b
         a = b
         b = c
+    print(lista_fib)
     return lista_fib
+
+
+# Testando se estou chamando a lib pela linha de comando
+if __name__ == "__main__":
+    import sys
+    fib(int(sys.argv[1]))
