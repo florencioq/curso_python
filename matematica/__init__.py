@@ -1,1 +1,1 @@
-print('importei matematica')
+print('importei o pacote matematica')
